@@ -1,0 +1,24 @@
+Package: grace2pexa
+Title: GRACE 2.0 One-Year Death and Death/MI - ModelsCloud Service
+Version: 0.1.0
+Authors@R: c(
+    person("Ramin", "Rezaeianzadeh", email = "raminrzn@student.ubc.ca",
+           role = c("aut", "cre")),
+    person("Keith A. A.", "Fox", role = "ctb",
+           comment = "First author of GRACE 2.0"))
+Description: Implements the GRACE 2.0 one-year models for death and for death
+    or myocardial infarction after an acute coronary syndrome (Fox et al., BMJ
+    Open 2014 <doi:10.1136/bmjopen-2013-004425>), with their restricted cubic
+    spline terms, from the GRACE Risk Score V2 coefficient sheets (Center for
+    Outcomes Research, University of Massachusetts Medical School, 2012-2017)
+    as reproduced in Hara et al., EuroIntervention 2022
+    <doi:10.4244/EIJ-D-21-00536>, Supplementary Appendix 1. Other horizons and
+    the older GRACE point scores are not included.
+License: GPL-3
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Imports: jsonlite, utils
+Suggests: testthat (>= 3.0.0)
+Config/testthat/edition: 3
+URL: https://github.com/raminrzn/grace2pexa
